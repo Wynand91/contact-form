@@ -3,10 +3,28 @@
   <head>
     <meta charset="utf-8">
     <link href="style.css" rel="stylesheet"/>
-    <title>Form</title>
+    <title>Login Form practice</title>
   </head>
   <body>
-
+    <div class="login-box">
+      <img src="Images/avatar.png" />
+      <h2>Sign Up!</h2>
+      <form>
+        <input name="firstname" type="text" placeholder="First name*"/>
+        <input name="lastname" type="text" placeholder="Last name*"/>
+        <input name="email" type="text" placeholder="Email address*"/>
+        <h4>Choose your location:</h4>
+        <select>
+          <option value="Western Cape">Western Cape</option>
+          <option value="Gauteng">Gauteng</option>
+          <option value="KZN">KZN</option>
+          <option value="Limpopo">Limpopo</option>
+          <option value="Northen Cape">Northen Cape</option>
+        </select>
+        <button type="submit" name="submit">Submit</button>
+        <p><a>Already have an account?</a></p>
+      </form>
+    </div>
   <script src="main.js"></script>
   </body>
 </html>
